@@ -3,9 +3,9 @@ const apiRoutes = require('./api');
 
 router.use('/api', apiRoutes);
 
-const categoryRoutes = require('./category-routes');
-const productRoutes = require('./product-routes');
-const tagRoutes = require('./tag-routes');
+const categoryRoutes = require('./api/category-routes');
+const productRoutes = require('./api/product-routes');
+const tagRoutes = require('./api/tag-routes');
 
 router.use('/categories', categoryRoutes);
 router.use('/products', productRoutes);
