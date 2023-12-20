@@ -1,5 +1,8 @@
 # E-commerce-BackEnd
 
+## My Challenge
+Your challenge is to build the back end for an e-commerce site. You’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
+
 ## User Story
 AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
@@ -17,3 +20,8 @@ WHEN I open API GET routes in Insomnia Core for categories, products, or tags
 THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
+
+# Mock Preview
+![Alt text](images/13-orm-homework-demo-03.gif)
+![Alt text](images/13-orm-homework-demo-02.gif)
+![Alt text](images/13-orm-homework-demo-01.gif)
